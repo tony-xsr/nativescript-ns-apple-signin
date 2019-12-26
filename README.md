@@ -48,13 +48,11 @@ tns plugin add nativescript-ns-apple-signin
 
 
 ## Usage 
-
-Describe any usage specifics for your plugin. Give examples for Android, iOS, Angular if needed. See [nativescript-drop-down](https://www.npmjs.com/package/nativescript-drop-down) for example.
+ 
 	
-	```javascript
-    Usage code snippets here
-    ```)
-
+```javascript
+tns plugin add nativescript-ns-apple-signin
+```
 
 ## API
 
