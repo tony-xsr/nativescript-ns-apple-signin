@@ -25,7 +25,7 @@ export class HomeViewModel extends Observable {
             .then(credential => {
                 console.log("Signed in, user: " + credential.user);
                 console.log("Signed in, user: " + credential.email);
-                console.log("Signed in, user: " + credential.fullname);
+                //console.log("Signed in, user: " + JSON.stringify(credential.fullname));
                 this.user = credential.user;
             })
             .catch(err => console.log("Error signing in: " + err));
