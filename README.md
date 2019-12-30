@@ -54,6 +54,7 @@ tns plugin add nativescript-ns-apple-signin
 tns plugin add nativescript-ns-apple-signin
 ```
 
+
 ## API
 
 ### `isSignInWithAppleSupported`

@@ -1,7 +1,13 @@
 <ActionBar>
-    <Label text="Home"></Label>
+    <Label text="Demo SignIn With APPLE"></Label>
 </ActionBar>
 
 <GridLayout>
     <!-- Add your page content here -->
+    <StackLayout>
+        <Label class="m-20 c-orange" text="Check the console log for feedback" horizontalAlignment="center" ></Label>
+        <Button class="m-20" text="Sign In with Apple supported?" (tap)="isSupported()"></Button>
+        <Button class="m-20" text="Current Sign In State?" (tap)="getSignInState()"> </Button>
+        <Button class="m-20" text="Sign In with Apple!" (tap)="signIn()"></Button>
+     </StackLayout>
 </GridLayout>

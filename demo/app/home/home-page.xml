@@ -8,5 +8,11 @@
 
     <GridLayout>
         <!-- Add your page content here -->
+         <StackLayout>
+            <Label class="m-20 c-orange" text="Check the console log for feedback" horizontalAlignment="center"/>
+            <Button class="m-20" text="Sign In with Apple supported?" tap="{{ isSupported }}"/>
+            <Button class="m-20" text="Current Sign In State?" tap="{{ getSignInState }}"/>
+            <Button class="m-20" text="Sign In with Apple!" tap="{{ signIn }}"/>
+         </StackLayout>
     </GridLayout>
 </Page>

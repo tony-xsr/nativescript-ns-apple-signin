@@ -1,7 +1,7 @@
 {
 	"name": "nativescript-ns-apple-signin",
-	"version": "1.0.0",
-	"description": "Your awesome NativeScript plugin.",
+	"version": "1.0.2",
+	"description": "NativeScript plugin for SignIn with Apple.",
 	"main": "ns-apple-signin",
 	"typings": "index.d.ts",
 	"nativescript": {
@@ -10,6 +10,9 @@
 			"ios": "6.0.1"
 		}
 	},
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com/"
+	  },
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/tungtranuit/nativescript-ns-apple-signin.git"
@@ -37,8 +40,8 @@
 		"iOS"
 	],
 	"author": {
-		"name": "Your Name",
-		"email": "youremail@yourdomain.com"
+		"name": "Tony Chen",
+		"email": "tungtran.uit@gmail.com"
 	},
 	"bugs": {
 		"url": "https://github.com/tungtranuit/nativescript-ns-apple-signin/issues"
