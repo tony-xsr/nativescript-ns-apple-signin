@@ -18,8 +18,9 @@ export class HomeComponent implements OnInit {
     }
     private user: string;
 
-    isSupported(){
+    isSupported() {
         console.log(isSignInWithAppleSupported() ? "YES" : "NO");
+        return isSignInWithAppleSupported() ;
     }
 
     getSignInState(): void {

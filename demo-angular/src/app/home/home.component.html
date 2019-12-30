@@ -9,5 +9,11 @@
         <Button class="m-20" text="Sign In with Apple supported?" (tap)="isSupported()"></Button>
         <Button class="m-20" text="Current Sign In State?" (tap)="getSignInState()"> </Button>
         <Button class="m-20" text="Sign In with Apple!" (tap)="signIn()"></Button>
+        <GridLayout rows="45" columns="*, auto, *" class="apple-button" (tap)="signIn()" *ngIf="isSupported()">
+            <StackLayout orientation="horizontal"  height="45" col="1">
+                <Image src="~/images/apple.png" horizontalAlignment="center" verticalAlignment="middle"></Image>
+                <Label text="Sign In with Apple!" horizontalAlignment="center" verticalAlignment="middle"></Label>
+            </StackLayout>    
+        </GridLayout>
      </StackLayout>
 </GridLayout>
